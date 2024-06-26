@@ -17,7 +17,8 @@ header {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  margin: 8px;
+  margin: 0.8% 0 0.8%;
+  margin-left: 0.8%;
 }
 
 .header-img-container img{
@@ -26,16 +27,23 @@ header {
 }
 
 nav {
+  margin-right: 1.5%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 15px;
 }
 
 nav a {
   color: floralwhite;
-  margin: 0 10px 0 0;
   text-decoration: none;
   font-size: 1.2rem;
+}
+
+#active {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: chocolate;
 }
 
 main {
