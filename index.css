@@ -43,28 +43,16 @@ nav a {
   font-size: 1.2rem;
 }
 
+nav a:hover {
+  color: rgb(133, 66, 18);   
+}
+
 #active {
-  text-decoration: underline;
-  font-size: 1.5rem;
+  text-decoration: none;
   color: chocolate;
 }
 
 main {
-  margin: 0 5%;
   height: 100%;
-  width: 90%;
   display: flex;
-}
-
-
-.form-container {
-  width: 500px;
-  height: 500px;
-}
-
-.form-container form{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: red;
 }
