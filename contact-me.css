@@ -10,9 +10,10 @@ body {
 header {
   display: flex;
   border: none;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  
+  margin: 5px;
 }
 
 .header-img-container {
@@ -42,10 +43,18 @@ nav a {
   font-size: 1.2rem;
 }
 
+nav a:hover {
+  color: rgb(133, 66, 18);   
+}
+
 #active {
   text-decoration: underline;
   font-size: 1.5rem;
   color: chocolate;
+}
+
+#active:hover {
+  color: rgb(133, 66, 18); 
 }
 
 main {
@@ -70,7 +79,7 @@ main {
 
 .form-container h2 {
   font-size: 2rem;
-  margin: 10px;
+  margin: 20px 0;
   color: white;
 }
 
@@ -78,22 +87,56 @@ main {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%;
   height: 100%;
 }
 
+form section {
+  margin: 10px 0;
+}
+
 .input-box {
   display: flex;
+  color: floralwhite;
   flex-direction: column;
   align-items: center;
 }
 
 .input-box input {
+  border: none;
+  border: 2px solid floralwhite;
+  border-radius: 40px;
   height: 2rem;
+  color: floralwhite;
   background: transparent;
+  height: 40px;
+  width: 80%;
+  padding-left: 20px;
 }
 
 #submit {
   width: 30%;
+  margin-top: auto;
+  padding: 0;
+  background-color: chocolate;  
+  border: none;
+  cursor: pointer; 
+}
+
+#submit:hover {  
+  background-color: rgb(133, 66, 18); 
+}
+
+#message {
+  height: 220px;
+  width: 80%;
+  text-align: center;
+  padding: 0;
+  padding-bottom: 185px;
+
+}
+
+#message::placeholder {
+  vertical-align: top;
 }
