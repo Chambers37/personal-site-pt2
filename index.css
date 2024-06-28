@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   background: linear-gradient(black , rgb(0, 0, 127));
+  background-attachment: fixed;
   font-family: sans-serif;
 }
 

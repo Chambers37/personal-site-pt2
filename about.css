@@ -1,0 +1,47 @@
+main {
+  color: white;
+  height: 100%;
+}
+
+main img {
+  width: 300px;
+  margin: 10px 10px;
+}
+
+.about-main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.about-main-section hr {
+  margin: 20px 0px;
+}
+
+hr {
+  margin: 0;
+  width: 85%;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3 {
+  margin: 5px;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
