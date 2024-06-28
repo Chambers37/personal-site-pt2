@@ -1,0 +1,60 @@
+main .main-section {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 80%;
+}
+
+.main-top-half {
+  display: flex;
+  justify-content: space-between;
+}
+
+#home-img {
+  display: flex;
+  align-items: center;
+}
+
+#home-img img {
+  width: 300px;
+  height: 300px;
+}
+
+
+#home-intro {
+  width: 50%;
+}
+
+#home-intro hr {
+  width: 80%;
+}
+
+#home-intro p {
+  margin: 24px 10px;
+  font-size: 1.5rem;
+}
+
+#home-intro h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+#home-quote {
+  text-align: center;
+  font-size: 4rem;
+}
+
+@media (max-width: 550px) {
+  .main-top-half {
+    flex-direction: column-reverse;
+  }
+
+  #home-intro {
+    width: 100%;
+    text-align: center;
+  }
+
+  main {
+    margin-top: 2vh;
+  }
+}

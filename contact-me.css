@@ -90,13 +90,13 @@ form section {
 }
 
 #submit:hover {  
-  background-color: rgb(133, 66, 18); 
+  background-color: rgba(255, 162, 0, 0.836); 
   font-size: 1.3rem;
-  box-shadow: 0 0 20px rgba(255, 156, 34, 0.8);
+  box-shadow: 0 0 20px white;
 }
 
 #message {
-  font-family: sans-serif;
+  font-family: sans-serif; 
   height: 220px;
   width: 80%;
   padding: 20px 20px 0;
@@ -105,3 +105,4 @@ form section {
 #message::placeholder {
   vertical-align: top;
 }
+
